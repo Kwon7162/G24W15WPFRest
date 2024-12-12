@@ -24,7 +24,7 @@ public partial class MainWindow : Window
         InitializeComponent();
         DataContext = vm; //반드시 연결, 시험출제 가능
 
-        GameGrid.ItemsSource = vm.Games;
+        //GameGrid.ItemsSource = vm.Games;
 
         InitializeGames();
     }
